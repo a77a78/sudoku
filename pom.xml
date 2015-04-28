@@ -66,6 +66,14 @@
             <version>1.9.19</version>
             <scope>test</scope>
         </dependency>
+        
+        <!-- Objectify dependenciy -->
+       	<dependency>
+            <groupId>com.googlecode.objectify</groupId>
+            <artifactId>objectify</artifactId>
+            <version>5.0</version>
+        </dependency>
+       	
     </dependencies>
 
     <build>
