@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0;
     padding: 0;
@@ -58,3 +59,117 @@ div{
 #block41,#block42,#block43,#block44,#block45,#block46,#block47,#block48,#block49,#block71,#block72,#block73,#block74,#block75,#block76,#block77,#block78,#block79,#block11,#block12,#block13,#block14,#block15,#block16,#block17,#block18,#block19{
     border-top:  5px solid black;
 }
+=======
+@font-face {
+font-family: myFirstFont;
+src: url(MiasScribblings.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("background.png");
+    background-position: 40% 40% ;
+    font-family: myFirstFont;
+}
+aside{
+    font-size: 40;
+    color: black;
+    width: 200px;
+    height: 400px;
+    margin-left: 1%;
+    
+}
+
+#button{
+    width: 100px;
+    height: 30px;
+}
+
+div{
+    font-size: 15px;
+}
+
+#superBigBrother{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: 7%;  
+}
+
+#bigBrother{
+    font-size: 0;
+    margin-left: 10%;
+
+}   
+
+.blocks{
+    vertical-align:top;
+    background-color: ;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    border:1px solid ;
+    border-color: rgba(0,0,0,0);
+    opacity: 0.7;
+    color: white;
+    visibility: visible;
+}
+
+.changedBlock{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px; 
+    font-size: 35px;
+    height: 50px;
+    width: 50px;
+    display:inline-block;
+    opacity: 0.7;
+    color: black;
+    visibility: visible;
+    font-weight: bold;
+}
+           
+.miniBlocks{
+    height: 30%;
+    width: 23%;
+    display:inline-block;
+    text-align: center;
+    visibility: hidden;
+    color: black;
+    border-radius: 50%;
+}
+
+
+#block13,#block23,#block33,#block43,#block53,#block63,#block73,#block83,#block93,#block16,#block26,#block36,#block46,#block56,#block66,#block76,#block86,#block96{
+    border-right:  5px solid rgba(0,0,0,0);
+}
+
+#block19,#block29,#block39,#block49,#block59,#block69,#block79,#block89,#block99{
+    border-right: 7px solid rgba(0,0,0,0);
+}
+
+#block14,#block24,#block34,#block44,#block54,#block64,#block74,#block84,#block94,#block17,#block27,#block37,#block47,#block57,#block67,#block77,#block87,#block97{
+    border-left:  5px solid rgba(0,0,0,0);
+}
+
+#block11,#block21,#block31,#block41,#block51,#block61,#block71,#block81,#block91{
+    border-left:  7px solid rgba(0,0,0,0);
+}
+#block31,#block32,#block33,#block34,#block35,#block36,#block37,#block38,#block39,#block61,#block62,#block63,#block64,#block65,#block66,#block67,#block68,#block69{
+    border-bottom:  5px solid rgba(0,0,0,0);
+}
+
+#block91,#block92,#block93,#block94,#block95,#block96,#block97,#block98,#block99{
+    border-bottom:  7px solid rgba(0,0,0,0);
+}
+#block41,#block42,#block43,#block44,#block45,#block46,#block47,#block48,#block49,#block71,#block72,#block73,#block74,#block75,#block76,#block77,#block78,#block79{
+    border-top:  5px solid rgba(0,0,0,0);
+}
+
+#block11,#block12,#block13,#block14,#block15,#block16,#block17,#block18,#block19{
+    border-top:  7px solid rgba(0,0,0,0);
+}
+
+>>>>>>> ad7c326d0fd96ae83b17e314d0562eee015f3818
